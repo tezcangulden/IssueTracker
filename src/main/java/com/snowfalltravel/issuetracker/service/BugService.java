@@ -1,7 +1,6 @@
 package com.snowfalltravel.issuetracker.service;
 
 import com.snowfalltravel.issuetracker.entity.*;
-import com.snowfalltravel.issuetracker.repository.BugAssignmentRepository;
 import com.snowfalltravel.issuetracker.repository.BugRepository;
 
 import com.snowfalltravel.issuetracker.repository.CommentRepository;
@@ -21,8 +20,6 @@ public class BugService {
     @Autowired
     private BugRepository bugRepository;
 
-    @Autowired
-    private BugAssignmentRepository bugAssignmentRepository;
 
     @Autowired
     private CommentRepository commentRepository;
